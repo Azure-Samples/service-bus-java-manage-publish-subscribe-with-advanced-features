@@ -175,7 +175,7 @@ public final class ServiceBusPublishSubscribeAdvanceFeatures {
                 .sender()
                 .topicName(topic1Name)
                 .buildClient();;
-                serviceBusSenderClient.send(message);
+                serviceBusSenderClient.sendMessage(message);
             }
             catch (Exception ex) {
             }
